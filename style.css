@@ -1,0 +1,48 @@
+h1{
+    font-size: 200px;
+    font-family: monospace;
+    color: blue;
+}
+
+.content{
+    position: absolute;
+    top: 800px;
+    font-family: monospace;
+    font-size: 9px;
+    color: blue;
+}
+/* h1{
+    position: relative;
+} */
+
+.timelineTop{
+    position: absolute;
+    text-align: center;
+    left: 6780px;
+    font-size: 12px;
+    padding-bottom: 30px;
+}
+
+.timeline{
+    background-size: 50px 20px;
+    background-repeat: repeat-x;
+    min-height: 20px;
+    
+    /* only needed for labels */
+    white-space:nowrap;
+    font-size:0;
+    margin: 20px;;
+    padding:30px;
+  }
+  
+  label {
+    text-align: center;
+    border-bottom: solid 2px black;
+    font-size:12px;
+    padding-bottom:20px;
+    display:inline-block;
+    width:150%;
+    text-indent:3px;
+    font-family: monospace;
+    color: blue;
+  }
