@@ -1,48 +1,100 @@
 h1{
-    font-size: 200px;
     font-family: monospace;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 240px;
     color: blue;
-}
-
-.content{
+    line-height: 230px;
+    /* border: 1px black solid; */
+    z-index: 1;
     position: absolute;
-    top: 800px;
-    font-family: monospace;
-    font-size: 9px;
-    color: blue;
-}
-/* h1{
-    position: relative;
-} */
+    margin-top: 7%;
+    top: 20%;
+    transform: translateY(-50%);
 
-.timelineTop{
-    position: absolute;
-    text-align: center;
-    left: 6780px;
-    font-size: 12px;
-    padding-bottom: 30px;
 }
 
 .timeline{
-    background-size: 50px 20px;
-    background-repeat: repeat-x;
-    min-height: 20px;
-    
-    /* only needed for labels */
-    white-space:nowrap;
-    font-size:0;
-    margin: 20px;;
-    padding:30px;
-  }
-  
-  label {
-    text-align: center;
-    border-bottom: solid 2px black;
-    font-size:12px;
-    padding-bottom:20px;
-    display:inline-block;
-    width:150%;
-    text-indent:3px;
+    padding-right: 20%;
+    position: absolute;
+    /* border: 1px solid black; */
+    z-index: 2;
+    top: 5%;
+    margin-left: 65%;
+}
+
+.timelineTick {
+    display: grid;
+    grid-template-columns: repeat(203,1fr);
+    /* border: 1px solid black; */
+}
+
+.tick {
+    width:1vw;
+    height:10px;
+    border-right:1.5px solid blue; 
+}
+
+.tickDecade {
+    width:1vw;
+    height:20px;
+    border-right:1px solid red; 
+}
+
+.years {
+    display: grid;
+    grid-template-columns: repeat(203,1fr);
+    /* border: 1px solid black; */
+}
+
+.centuryCounter {
     font-family: monospace;
-    color: blue;
-  }
+    width: 1vw;
+    /* border-right: 1px solid green; */
+    padding-bottom: 10px;
+}
+
+.invistick{
+    width:0vw;
+    height:10px;
+}
+
+.t2024{
+    font-family: monospace;
+    position:absolute;
+    top:10vh;
+    color:blue;
+    left:0vw;
+}
+
+.t2018{
+    font-family: monospace;
+    position:absolute;
+    top:15vh;
+    color:blue;
+    left: 1vw;
+}
+
+.t1989{
+    font-family: monospace;
+    position:absolute;
+    top:10vh;
+    color:blue;
+    left: 14vw;
+}
+
+.t2002{
+    font-family: monospace;
+    position:absolute;
+    top:19vh;
+    color:blue;
+    left: 3vw;
+}
+
+.t1593{
+    font-family: monospace;
+    position:absolute;
+    top:10vh;
+    color:blue;
+    left: 59vw;
+}
