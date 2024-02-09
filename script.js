@@ -9,7 +9,11 @@ function toggleFrame() {
 
 $(document).ready(function() {
     $(".webpages").draggable({
-        containment: ".webpages",
         scroll: false
+    });
+
+    // Add click event handler for the close button
+    $(".closeButton").on("click", function() {
+        $(".webpages").hide(); // Hide the iframe when the close button is clicked
     });
 });
