@@ -14,15 +14,21 @@
 </head>
 <body>
   
-  <div class="webpages">
-    <button class="closeButton">Close</button>
-  <iframe src="https://en.wikipedia.org/wiki/Main_Page" width="100%" height="600px"></iframe>
+  <div class="webpages" id="webpage1">
+    <button class="closeButton">&times;</button>
+  <iframe src="https://en.wikipedia.org/wiki/Laguna_Copperplate_Inscription" width="100%" height="600px"></iframe>
   </div>  
 
+  <div class="webpages" id="webpage2">
+    <button class="closeButton">&times;</button>
+  <iframe src="linksPage.html" width="100%" height="600px"></iframe>
+  </div> 
+
     <div class="mainTitle">
-        <h1 class="suyat">ᜰᜳᜬᜦ᜴ :</h1>
+        <img src="gif.gif" alt="GIF" class="suyatGif">
+        <h1 class="suyat">SUYAT:</h1>
         <h1 class="aTimeline">A TIMELINE</h1>
-        <p class="discription">Hi this is website discription</p>
+        <p class="description">Hi! This website is an archive of readings, forum posts, and various different sources I have come across pertaining to <u class="uSuyat">Suyat</u> scripts over the years </p>
     </div>
     <div class="timeline">
         <div class="years">
@@ -486,8 +492,9 @@
             <a class="t2024">.2024 Present</a>
             <a class="t2018">.2018 Bill 1022</a>
             <a class="t2002">.2002<br>Baybayin, Hanunoo, Buhid, and Tagbanwa<br>added to the Unicode standard</a>
-            <a class="t1989" onclick="toggleFrame()">.1989 Laguna Copperplate Discovered</a>
-            <a class="t1593">.1593 Doctrina Christiana is printed</a>
+            <a class="t1989" onclick="toggleFrame('webpage1','https://en.wikipedia.org/wiki/Laguna_Copperplate_Inscription')">.1989 Laguna Copperplate Discovered</a>
+            <a class="t1593" onclick="toggleFrame('webpage2','linksPage.html')">.1593 Doctrina Christiana is printed</a>
+            <a class="t900">.900 Laguna Copperplate is inscribed</a>
 
           </div>
  

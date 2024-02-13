@@ -1,32 +1,129 @@
-.webpages{
-    padding-top: 0px;
-    padding-right: 5px;
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+/* ------------- start of main page code ------------- */
+
+.webpages {
     background-color: blue;
+    border: 2px solid blue;
     width: 30vw;
-    height: 70vh;
+    height: 600px;
     z-index: 999;
     display: none;
     position: fixed;
+    box-shadow: 5px 5px 10px black;
 }
 
 .webpages:hover {
-    padding-top: 30px;
+    padding-top: 50px; /* Increase padding top on hover */
 }
 
 .closeButton {
     position: absolute;
-    padding: 5px 10px;
     background-color: blue;
     color: #fff;
+    font-size: 2vw; /* Use relative font size */
     border: none;
     cursor: pointer;
+    top: 1%; /* Adjust top position */
+    left: 1%; /* Adjust right position */
+    opacity: 0; /* Hide button by default */
+}
+
+.webpages:hover .closeButton {
+    opacity: 1; /* Show button on hover */
 }
 
 .mainTitle{
-    z-index: 1;
+    z-index: 0;
+    /* border: black 1px solid; */
+    padding-left: 1vw;
+    display: grid;
+    /* line-height: 15em; */
 }
 
 /* uwu */
+
+.suyatGif{
+    font-family: monospace;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 240px;
+    color: blue;
+    position: absolute ;
+    z-index: 50;
+    opacity: 0;
+    background-color: #fff;
+    /* margin-top: 7%; */
+    /* transform: translateY(-47%); */
+    /* border: black solid 1px; */
+}
+
+.suyatGif:hover{
+    font-family: monospace;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 240px;
+    color: blue;
+    position: absolute ;
+    z-index: 50;
+    /* margin-top: 7%; */
+    /* transform: translateY(-47%); */
+    /* /* border: black solid 1px; */
+    opacity: 100;
+}
+
 
 .suyat{
     font-family: monospace;
@@ -36,7 +133,21 @@
     color: blue;
     margin-top: 7%;
     transform: translateY(-50%);
+    z-index: 5;
     /* border: black solid 1px; */
+}
+
+
+.uSayat{
+    text-decoration: underline;
+}
+
+a:hover{
+    color: red;
+}
+
+u:hover{
+    color: red;
 }
 
 .aTimeline{
@@ -45,15 +156,18 @@
     font-style: normal; 
     font-size: 240px;
     color: blue;
-    margin-top: 10%;
-    transform: translateY(-120%);
+    margin-top: -7rem;
+    /* margin-top: 10%; */
+    /* transform: translateY(-110%); */
     /* border: black solid 1px; */
 }
 
-.discription{
-    transform: translateY(-3000%);
+.description{
+    /* transform: translateY(-3000%); */
     font-family: monospace;
     color: blue;
+    width: 50%;
+    /* border: black solid 1px; */
 }
 
 .timeline{
@@ -92,12 +206,12 @@
 .centuryCounter {
     font-family: monospace;
     width: 1vw;
-    /* border-right: 1px solid green; */
     padding-bottom: 10px;
+    /* border-right: 1px solid green; */
 }
 
 .invistick{
-    width:0vw;
+     width:1vw;
     height:10px;
 }
 
@@ -139,4 +253,12 @@
     top:10vh;
     color:blue;
     left: 59vw;
+}
+
+.t900{
+    font-family: monospace;
+    position:absolute;
+    top:10vh;
+    color:blue;
+    left: 124vw;
 }

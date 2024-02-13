@@ -1,6 +1,8 @@
-function toggleFrame() {
-    var frame = document.querySelector(".webpages");
+function toggleFrame(frameID, src) {
+    var frame = document.getElementById(frameID);
+    var iframe = frame.querySelector("iframe");
     if (frame.style.display === "none" || frame.style.display === "") {
+        iframe.src = src;
         frame.style.display = "block";
     } else {
         frame.style.display = "none";
