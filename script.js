@@ -9,6 +9,9 @@ function toggleFrame(frameID, src) {
     }
 }
 
+
+/*---chatgpt---*/
+
 $(document).ready(function() {
     $(".webpages").draggable({
         scroll: false
@@ -16,6 +19,6 @@ $(document).ready(function() {
 
     // Add click event handler for the close button
     $(".closeButton").on("click", function() {
-        $(".webpages").hide(); // Hide the iframe when the close button is clicked
+        $(this).closest(".webpages").hide(); // Hide the iframe when the close button is clicked
     });
 });

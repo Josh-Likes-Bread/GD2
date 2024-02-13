@@ -52,7 +52,7 @@ table {
 	border-collapse: collapse;
 }
 
-/* ------------- start of main page code ------------- */
+/* ------------- start of main page css ------------- */
 
 .webpages {
     background-color: blue;
@@ -140,6 +140,8 @@ table {
 
 .uSayat{
     text-decoration: underline;
+    font-family:  monospace;
+    font-weight: bold;
 }
 
 a:hover{
