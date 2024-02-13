@@ -60,8 +60,9 @@ table {
     width: 30vw;
     height: 600px;
     z-index: 999;
-    display: none;
+    /* display: none; */
     position: fixed;
+top:50px;
     box-shadow: 5px 5px 10px black;
 }
 
