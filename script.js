@@ -47,7 +47,7 @@ $(document).ready(function() {
         iframe = $(this).data("iframe");
 
         // Create iframe element
-        var $iframe = $("<div class='webpages'><button class='closeButton'>&times;</button><h1>Hanunoo - ᜰᜳᜬᜦ᜴ </h1><iframe src='"+ iframe +"' width='100%' height='600px'></iframe></div>");
+        var $iframe = $("<div class='webpages'><button class='closeButton'>&times;</button><h1>Hanunoo - ᜰᜳᜬᜦ᜴  </h1><iframe src='"+ iframe +"' width='100%' height='600px'></iframe></div>");
 
         // Append iframe to body
         $("body").append($iframe);
