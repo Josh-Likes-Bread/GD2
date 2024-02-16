@@ -65,24 +65,28 @@ body{
 .content{
     border: 2px solid blue;
     padding: 1em;
-}
-
-h1{
-    font-family: monospace;
-    font-size: 2em;
-    font-weight: 600;
-    color: blue;
-    border-bottom: 2px solid blue;
-    padding-bottom: 10px;
+    margin: 1em;
 }
 
 h2{
     font-family: "droid-sans", sans-serif;
     font-weight: bold;
+    font-size: 120%;
     font-style: normal;
     color: blue;
+    padding-bottom: 1em;
+}
+
+h3{
+    font-family: "droid-sans", sans-serif;
+    font-weight: bold;
+    font-style: normal;
     color: blue;
     padding-bottom: 1em;
+}
+
+li{
+    color: blue;
 }
 
 p{
@@ -90,8 +94,7 @@ p{
     font-weight: 400;
     font-style: normal;
     color: blue;
-    padding-top: 1em;
-    padding-bottom: 2em;
+    padding-bottom: 1em;
     padding-right: 1em;
 }
 

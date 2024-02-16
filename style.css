@@ -62,29 +62,35 @@ table {
     z-index: 999;
     /* display: none; */
     position: fixed;
-top:50px;
+    top:50px;
     box-shadow: 5px 5px 10px black;
+    padding-top: 60px; /* Increase padding top on hover */
+} 
+
+h1{
+    font-family: monospace;
+    font-size: 2em;
+    font-weight: 600;
+    color: white;
+    position: absolute;
+    padding-right: 1rem;
+    right: 1%;
+    top: 2%;
 }
 
-.webpages:hover {
-    padding-top: 50px; /* Increase padding top on hover */
-}
 
 .closeButton {
     position: absolute;
-    background-color: blue;
+    background-color: rgba(0, 0, 255, 0);
     color: #fff;
-    font-size: 2vw; /* Use relative font size */
+    font-size: 3em; /* Use relative font size */
     border: none;
     cursor: pointer;
-    top: 1%; /* Adjust top position */
+    top: 0%; /* Adjust top position */
     left: 1%; /* Adjust right position */
-    opacity: 0; /* Hide button by default */
+    opacity: 1; /* Hide button by default */
 }
 
-.webpages:hover .closeButton {
-    opacity: 1; /* Show button on hover */
-}
 
 .mainTitle{
     z-index: 0;
@@ -242,12 +248,52 @@ u:hover{
     left: 14vw;
 }
 
-.t2002{
+.t2002-1{
+    font-family: monospace;
+    position:absolute;
+    top:22vh;
+    color:blue;
+    left: 3vw;
+}
+
+.t2002-2{
+    font-family: monospace;
+    position:absolute;
+    top:20vh;
+    color:blue;
+    left: 3vw;
+}
+
+.t2002-3{
+    font-family: monospace;
+    position:absolute;
+    top:24vh;
+    color:blue;
+    left: 3vw;
+}
+
+.t2002-4{
+    font-family: monospace;
+    position:absolute;
+    top:26vh;
+    color:blue;
+    left: 3vw;
+}
+
+.t1625{
     font-family: monospace;
     position:absolute;
     top:19vh;
     color:blue;
-    left: 3vw;
+    left: 44.5vw;
+}
+
+.t1613{
+    font-family: monospace;
+    position:absolute;
+    top:15vh;
+    color:blue;
+    left: 46vw;
 }
 
 .t1593{
