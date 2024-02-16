@@ -67,12 +67,19 @@ $(document).ready(function() {
             position: 'fixed' // Ensure the iframe is positioned relative to the viewport
         });
 
-        $iframe.draggable();
+        $iframe.draggable({
+            containment: "window", 
+        });
 
         // Add click event handler for the close button
         $(".closeButton").on("click", function() {
             $(this).closest(".webpages").remove(); // Hide the iframe when the close button is clicked
         });
+    });
+
+
+    $("#closeAllButton").on("click", function() {
+        $(".webpages").remove(); // Remove all iframes
     });
 
 });
