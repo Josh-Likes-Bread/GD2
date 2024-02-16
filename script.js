@@ -68,7 +68,7 @@ $(document).ready(function() {
         });
 
         $iframe.draggable({
-            containment: "window", 
+            // containment: "window", 
         });
 
         // Add click event handler for the close button
