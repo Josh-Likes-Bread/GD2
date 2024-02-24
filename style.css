@@ -84,12 +84,12 @@ h1{
     position: absolute;
     background-color: rgba(0, 0, 255, 0);
     color: #fff;
-    font-size: 3em; /* Use relative font size */
+    font-size: 3em;
     border: none;
     cursor: pointer;
-    top: 0%; /* Adjust top position */
-    left: 1%; /* Adjust right position */
-    opacity: 1; /* Hide button by default */
+    top: 0%;
+    left: 1%; 
+    opacity: 1;
 }
 
 .closeButton:hover{
@@ -180,7 +180,7 @@ u:hover{
     /* border: black solid 1px; */
 }
 
-p{
+.description{
     /* transform: translateY(-3000%); */
     margin-top: 1.5em;
     margin-left: 1em;
@@ -285,6 +285,7 @@ p{
 .t2024{
     font-family: monospace;
     position:absolute;
+    text-decoration: none;
     top:10vh;
     color:blue;
     left:0vw;
@@ -375,7 +376,7 @@ p{
     position:absolute;
     top:19vh;
     color:blue;
-    left: 44.5vw;
+    left: 44vw;
 }
 
 .t1613{
@@ -399,7 +400,37 @@ p{
     position:absolute;
     top:10vh;
     color:blue;
-    left: 80vw;
+    left: 79.5vw;
+}
+
+.suyatCharacters{
+    font-size: 18pt;
+}
+
+.suyatCharacters:hover{
+    font-size: 25pt;
+    font-weight: bold;
+}
+
+.suyatBox{
+    border: solid 1px blue;
+    position: absolute;
+    left: 78.7vw;
+    top: 18vh;
+    width: 3vw;
+    height: 16vh;
+}
+
+.suyatBox:hover{
+    border: 3px solid blue;
+}
+
+.t1002{
+    font-family: monospace;
+    position:absolute;
+    top:14vh;
+    color:blue;
+    left: 112.5vw;
 }
 
 .t900{
@@ -424,12 +455,20 @@ p{
 }
 
 
+
+
+
+
+
+/* tool tip section with help from chatgpt */
+
 .tooltip {
     white-space: pre-line;
 }
   
   /* Style the tooltip text */
   a.tooltip::after {
+    font-family: monospace;
     content: attr(data-tooltip); /* Get the data-tooltip attribute value */
     background-color: black;
     color: white;

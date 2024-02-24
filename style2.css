@@ -74,15 +74,18 @@ h2{
     font-size: 120%;
     font-style: normal;
     color: blue;
-    padding-bottom: 1em;
+    padding-bottom: 8pt;
+    line-height: 17pt;
 }
 
 h3{
     font-family: "droid-sans", sans-serif;
     font-weight: bold;
+    font-size: 120%;
     font-style: normal;
     color: blue;
-    padding-bottom: 1em;
+    padding-bottom: 8pt;
+    line-height: 17pt;
 }
 
 li{
