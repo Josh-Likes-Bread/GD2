@@ -404,25 +404,21 @@ u:hover{
 }
 
 .suyatCharacters{
-    font-size: 18pt;
-}
-
-.suyatCharacters:hover{
-    font-size: 25pt;
-    font-weight: bold;
+    font-size: 19pt;
 }
 
 .suyatBox{
-    border: solid 1px blue;
+    border: solid 3px blue;
     position: absolute;
     left: 78.7vw;
     top: 18vh;
     width: 3vw;
     height: 16vh;
+    border-radius: 10px;
 }
 
 .suyatBox:hover{
-    border: 3px solid blue;
+    box-shadow: 2px 2px 5px black;
 }
 
 .t1002{
@@ -440,20 +436,6 @@ u:hover{
     color:blue;
     left: 124vw;
 }
-
-
-.Ka{
-    width: 1vw;
-    position:absolute;
-    top:16vh;
-    color:blue;
-    left: 79vw;
-}
-
-.Ka:hover{
-    width: 1.5vw;
-}
-
 
 
 
