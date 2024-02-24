@@ -185,16 +185,15 @@ p{
     margin-top: 1.5em;
     margin-left: 1em;
     font-family: monospace;
-    line-height: 13pt;
+    line-height: 14pt;
     font-weight: 400;
     font-style: normal;
-    color: rgb(255, 255, 255);
+    color: white;
     width: 35%;
     border-radius: 10px;
     background-color: blue;
+    border: 2px blue solid;
     padding: 1rem;
-    padding-bottom: 4rem;
-    padding-top: 2rem;
     position: absolute;
     bottom: 5%;
     /* border: black solid 1px; */
@@ -411,10 +410,11 @@ p{
     left: 124vw;
 }
 
+
 .Ka{
     width: 1vw;
     position:absolute;
-    top:13vh;
+    top:16vh;
     color:blue;
     left: 79vw;
 }
