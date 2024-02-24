@@ -98,6 +98,7 @@ h1{
     /* border: black 1px solid; */
     padding-left: 1vw;
     display: grid;
+    position: absolute;
     /* line-height: 15em; */
 }
 
@@ -110,6 +111,7 @@ h1{
     font-size: 240px;
     color: blue;
     position: absolute ;
+    top: 7%;
     z-index: 50;
     opacity: 0;
     background-color: #fff;
@@ -139,8 +141,8 @@ h1{
     font-style: normal; 
     font-size: 240px;
     color: blue;
-    margin-top: 7%;
-    transform: translateY(-50%);
+    margin-top: 3%;
+    /* transform: translateY(-30%); */
     z-index: 5;
     /* border: black solid 1px; */
 }
@@ -164,9 +166,11 @@ u:hover{
     font-family: monospace;
     font-weight: 400;
     font-style: normal; 
-    font-size: 240px;
+    font-size: 243px;
     color: blue;
-    margin-top: -5rem;
+    position: relative;
+    margin-top: 2rem;
+    line-height: 1em;
     /* margin-top: 10%; */
     /* transform: translateY(-110%); */
     /* border: black solid 1px; */
@@ -174,6 +178,8 @@ u:hover{
 
 p{
     /* transform: translateY(-3000%); */
+    margin-top: 1.5em;
+    margin-left: 1em;
     font-family: monospace;
     line-height: 13pt;
     font-weight: 400;
@@ -184,24 +190,44 @@ p{
     background-color: #fff;
     padding: 1rem;
     position: absolute;
-    top: 67%;
+    bottom: 5%;
     /* border: black solid 1px; */
 }
 
 #closeAllButton{
     font-family: monospace;
+    font-size: 15px;
     color: blue;
     font-weight: bold;
     position: fixed;
     top: 92%;
-    left: 90%;
-    border: 2px solid blue;
+    right: 5%;
+    border: 1.5px solid blue;
     background-color: white;
     padding: 5px;
     z-index: 1000;
 }
 
 #closeAllButton:hover{
+    color: red;
+    border-color: red;
+}
+
+#extras{
+    font-family: monospace;
+    font-size: 15px;
+    color: blue;
+    font-weight: bold;
+    position: fixed;
+    top: 88%;
+    right: 5%;
+    border: 1.5px solid blue;
+    background-color: white;
+    padding: 5px;
+    z-index: 1000;
+}
+
+#extras:hover{
     color: red;
     border-color: red;
 }
@@ -259,34 +285,43 @@ p{
     left:0vw;
 }
 
+.t2021{
+    font-family: monospace;
+    position:absolute;
+    top:23vh;
+    color:blue;
+    left: 0.1vw;
+}
+
+.t2021-2{
+    font-family: monospace;
+    position:absolute;
+    top:20vh;
+    color:blue;
+    left: 0.1vw;
+}
+
 .t2018{
     font-family: monospace;
     position:absolute;
     top:15vh;
     color:blue;
-    left: 1vw;
+    left: 1.2vw;
 }
 
-.t1989{
-    font-family: monospace;
-    position:absolute;
-    top:10vh;
-    color:blue;
-    left: 14vw;
-}
 
 .t2002-1{
     font-family: monospace;
     position:absolute;
-    top:22vh;
+    top:68vh;
     color:blue;
-    left: 6vw;
+    left: 3vw;
 }
 
 .t2002-2{
     font-family: monospace;
     position:absolute;
-    top:20vh;
+    top:29vh;
     color:blue;
     left: 3vw;
 }
@@ -294,17 +329,33 @@ p{
 .t2002-3{
     font-family: monospace;
     position:absolute;
-    top:24vh;
+    top:32vh;
     color:blue;
-    left: 6vw;
+    left: 3vw;
 }
 
 .t2002-4{
     font-family: monospace;
     position:absolute;
-    top:26vh;
+    top:70.5vh;
     color:blue;
-    left: 6vw;
+    left: 3vw;
+}
+
+.t1989{
+    font-family: monospace;
+    position:absolute;
+    top:10vh;
+    color:blue;
+    left: 14.5vw;
+}
+
+.t1950{
+    font-family: monospace;
+    position:absolute;
+    top:63vh;
+    color:blue;
+    left: 9vw;
 }
 
 .t1625{
@@ -331,6 +382,14 @@ p{
     left: 59vw;
 }
 
+.t1300{
+    font-family: monospace;
+    position:absolute;
+    top:10vh;
+    color:blue;
+    left: 80vw;
+}
+
 .t900{
     font-family: monospace;
     position:absolute;
@@ -346,3 +405,34 @@ p{
     color:blue;
     left: 79vw;
 }
+
+.Ka:hover{
+    width: 1.5vw;
+}
+
+
+
+  
+  /* Style the tooltip text */
+  a.tooltip::after {
+    content: attr(data-tooltip); /* Get the data-tooltip attribute value */
+    background-color: black;
+    color: white;
+    line-height: 1.1rem;
+    border-radius: 6px;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 1;
+    left: 0%;
+    top: calc(100% + 10px); /* Adjust the top position */
+    width: 25vw;
+    /* Set height to auto to adjust according to content */
+    height: auto;
+    visibility: hidden; /* Hide the tooltip by default */
+    
+  }
+  
+  /* Show the tooltip text when you mouse over the anchor tag */
+  a.tooltip:hover::after {
+    visibility: visible;
+  }
