@@ -437,6 +437,22 @@ u:hover{
     left: 124vw;
 }
 
+.t700{
+    font-family: monospace;
+    position:absolute;
+    top:10vh;
+    color:blue;
+    padding-left: 0.5rem;
+    left: 144.5vw;
+    border: solid 3px blue;
+    border-radius: 10px;
+    width: 2vw;
+    height: 3.5vh;
+}
+
+.t700:hover{
+    box-shadow: 2px 2px 5px black;
+}
 
 
 
