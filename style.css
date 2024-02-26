@@ -141,21 +141,14 @@ h1{
 
 .suyat{
     font-family: monospace;
-    font-weight: 400;
+    font-weight: bolder;
     font-style: normal; 
-    font-size: 240px;
+    font-size: 220px;
     color: blue;
-    margin-top: 3%;
+    margin-top: 5%;
     /* transform: translateY(-30%); */
     z-index: 5;
     /* border: black solid 1px; */
-}
-
-
-.uSayat{
-    text-decoration: underline;
-    font-family:  monospace;
-    font-weight: bold;
 }
 
 a:hover{
@@ -170,32 +163,30 @@ u:hover{
     font-family: monospace;
     font-weight: 400;
     font-style: normal; 
-    font-size: 243px;
+    font-size: 220px;
     color: blue;
     position: relative;
     margin-top: 2rem;
     line-height: 1em;
+    font-weight:bolder;
     /* margin-top: 10%; */
-    /* transform: translateY(-110%); */
     /* border: black solid 1px; */
 }
 
 .description{
     /* transform: translateY(-3000%); */
-    margin-top: 1.5em;
     margin-left: 1em;
     font-family: monospace;
     line-height: 14pt;
     font-weight: 400;
     font-style: normal;
-    color: white;
+    color: blue;
     width: 35%;
     border-radius: 10px;
-    background-color: blue;
     border: 2px blue solid;
     padding: 1rem;
     position: absolute;
-    bottom: 5%;
+    top: 37vw;
     /* border: black solid 1px; */
 }
 
@@ -205,9 +196,9 @@ u:hover{
     color: blue;
     font-weight: bold;
     position: fixed;
-    top: 92%;
+    bottom: 9.5vh;
     right: 5%;
-    border: 1.5px solid blue;
+    border: 2px solid blue;
     background-color: white;
     padding: 5px;
     z-index: 1000;
@@ -224,9 +215,9 @@ u:hover{
     color: blue;
     font-weight: bold;
     position: fixed;
-    top: 88%;
+    bottom: 15vh;
     right: 5%;
-    border: 1.5px solid blue;
+    border: 2px solid blue;
     background-color: white;
     padding: 5px;
     z-index: 1000;
@@ -271,48 +262,52 @@ u:hover{
     bottom: 30px;
 }
 
+a{
+    line-height: 20pt;
+}
+
 .t2024{
     font-family: monospace;
     position:absolute;
     text-decoration: none;
-    top:10vh;
+    top:5vh;
     color:blue;
-    left:0vw;
+    left:1.2vw;
 }
 
 .t2021{
     font-family: monospace;
     position:absolute;
-    top:23vh;
+    top:10vh;
     color:blue;
-    left: 0.1vw;
+    left: 2vw;
 }
 
 .t2021-2{
     font-family: monospace;
     position:absolute;
-    top:20vh;
+    top:15vh;
     color:blue;
-    left: 0.1vw;
+    left: 2vw;
 }
 
 .t2018{
     font-family: monospace;
     position:absolute;
-    top:15vh;
+    top:20vh;
     color:blue;
-    left: 1.2vw;
+    left: 2.7vw;
 }
 
 #t2002{
     font-family: monospace;
     position:absolute;
-    top:28vh;
+    top:25vh;
     color: blue;
-    left: 3vw;
+    left: 6vw;
 }
 
-.t2002-1{
+/* .t2002-1{
     font-family: monospace;
     position:absolute;
     top:68vh;
@@ -342,30 +337,38 @@ u:hover{
     top:70.5vh;
     color:blue;
     left: 3vw;
-}
+} */
 
 .t1989{
     font-family: monospace;
     position:absolute;
-    top:10vh;
+    top:56vh;
     color:blue;
-    left: 14.5vw;
+    left: 9vw;
 }
 
 .t1950{
     font-family: monospace;
     position:absolute;
-    top:63vh;
+    top:62vh;
     color:blue;
-    left: 9vw;
+    left: 16vw;
+}
+
+.t1900{
+    font-family: monospace;
+    position:absolute;
+    top:67vh;
+    color:blue;
+    left: 26vw;
 }
 
 .t1625{
     font-family: monospace;
     position:absolute;
-    top:19vh;
+    top:10vh;
     color:blue;
-    left: 44vw;
+    left: 82vw;
 }
 
 .t1613{
@@ -373,15 +376,15 @@ u:hover{
     position:absolute;
     top:15vh;
     color:blue;
-    left: 46vw;
+    left: 84.9vw;
 }
 
 .t1593{
     font-family: monospace;
     position:absolute;
-    top:10vh;
+    top:30vh;
     color:blue;
-    left: 59vw;
+    left: 87.8vw;
 }
 
 .t1300{
@@ -389,7 +392,7 @@ u:hover{
     position:absolute;
     top:10vh;
     color:blue;
-    left: 79.5vw;
+    left: 147.5vw;
 }
 
 .suyatCharacters{
@@ -399,7 +402,7 @@ u:hover{
 .suyatBox{
     border: solid 3px blue;
     position: absolute;
-    left: 78.7vw;
+    left: 146.5vw;
     top: 18vh;
     width: 3vw;
     height: 16vh;
@@ -415,15 +418,15 @@ u:hover{
     position:absolute;
     top:14vh;
     color:blue;
-    left: 112.5vw;
+    left: 208.5vw;
 }
 
 .t900{
     font-family: monospace;
     position:absolute;
-    top:10vh;
+    top:25vh;
     color:blue;
-    left: 124vw;
+    left: 229vw;
 }
 
 .t700{
@@ -432,7 +435,7 @@ u:hover{
     top:10vh;
     color:blue;
     padding-left: 0.5rem;
-    left: 145vw;
+    left: 268.5vw;
     border: solid 3px blue;
     border-radius: 10px;
     width: 2vw;
