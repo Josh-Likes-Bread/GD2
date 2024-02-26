@@ -238,6 +238,7 @@ u:hover{
 }
 
 .timeline{
+    margin-top: 2vh;
     padding-right: 20%;
     position: absolute;
     /* border: 1px solid black; */
@@ -248,38 +249,26 @@ u:hover{
 
 .timelineTick {
     display: grid;
-    grid-template-columns: repeat(203,1fr);
+    grid-template-columns: repeat(406,1fr);
     /* border: 1px solid black; */
 }
 
 .tick {
-    width:1vw;
+    width: 1vw;
     height:10px;
-    border-right:1.5px solid blue; 
+    border-right:1px solid blue; 
 }
 
 .tickDecade {
-    width:1vw;
+    width: 1vw;
     height:20px;
     border-right:1px solid red; 
 }
 
-.years {
-    display: grid;
-    grid-template-columns: repeat(203,1fr);
-    /* border: 1px solid black; */
-}
-
-.centuryCounter {
+.counter{
     font-family: monospace;
-    width: 1vw;
-    padding-bottom: 10px;
-    /* border-right: 1px solid green; */
-}
-
-.invistick{
-     width:1vw;
-    height:10px;
+    position: absolute;
+    bottom: 30px;
 }
 
 .t2024{
@@ -443,7 +432,7 @@ u:hover{
     top:10vh;
     color:blue;
     padding-left: 0.5rem;
-    left: 144.5vw;
+    left: 145vw;
     border: solid 3px blue;
     border-radius: 10px;
     width: 2vw;
