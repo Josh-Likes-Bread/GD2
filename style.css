@@ -68,6 +68,11 @@ table {
     
 } 
 
+.car{
+    font-family:  "Noto Sans Tagalog", sans-serif;
+    font-weight: bold;
+}
+
 h1{
     font-family: "Noto Sans Tagalog", sans-serif;
     font-size: 2em;
