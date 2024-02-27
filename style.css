@@ -187,7 +187,7 @@ h1{
     font-style: normal; 
     font-size: 220px;
     color: blue;
-    margin-top: 5%;
+    margin-top: 4%;
     margin-left: 1rem;
     /* transform: translateY(-30%); */
     z-index: 5;
@@ -220,6 +220,7 @@ u:hover{
 .description{
     /* transform: translateY(-3000%); */
     margin-left: 1em;
+    margin-top: 1vh ;
     font-family: monospace;
     line-height: 14pt;
     font-weight: 400;
@@ -241,7 +242,7 @@ u:hover{
     font-weight: bold;
     color: blue;
     border: 2px solid blue;
-    margin-top: 2.5vh;
+    margin-top: 3vh;
     margin-left: 1vw;
     padding: 5px;
     z-index: 1;
@@ -265,6 +266,7 @@ u:hover{
     top: 90vh;
     right: 3em;
     border: 2px solid blue;
+    border-radius: 10px;
     background-color: white;
     padding: 5px;
     z-index: 1000;
@@ -465,6 +467,14 @@ a{
     font-family: monospace;
     position:absolute;
     top:10vh;
+    color:blue;
+    left: 147.5vw;
+}
+
+.t1300-2{
+    font-family: monospace;
+    position:absolute;
+    top:60vh;
     color:blue;
     left: 147.5vw;
 }
