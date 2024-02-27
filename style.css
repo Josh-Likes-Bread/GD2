@@ -230,6 +230,7 @@ u:hover{
     border-radius: 10px;
     border: 2px blue solid;
     padding: 1rem;
+    margin-bottom: ;
     /* position: absolute; */
     /* top: 65vh; */
     /* border: black solid 1px; */
@@ -240,9 +241,8 @@ u:hover{
     text-align: center;
     font-weight: bold;
     color: blue;
-    top: 84vh;
     border: 2px solid blue;
-    margin-top: 2vh;
+    margin-top: 2.5vh;
     margin-left: 1vw;
     padding: 5px;
     z-index: 1;
