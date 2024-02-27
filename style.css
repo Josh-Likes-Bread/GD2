@@ -68,9 +68,12 @@ table {
     
 } 
 
-.car{
+.carBaybayin{
     font-family:  "Noto Sans Tagalog", sans-serif;
-    font-weight: bold;
+}
+
+.carKawi{
+    font-family: "Noto Sans Kawi", sans-serif;
 }
 
 h1{
