@@ -70,6 +70,8 @@ table {
 
 .carBaybayin{
     font-family:  "Noto Sans Tagalog", sans-serif;
+    font-weight: bold;
+    font-size: 10pt;
 }
 
 .carKawi{
