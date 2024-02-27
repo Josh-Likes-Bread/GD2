@@ -54,7 +54,23 @@ table {
 
 /* ------------- start of main page css ------------- */
 
+body {
+    font-family: "Noto Sans Tagalog", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.noto-sans tagalog-regular {
+    font-family: "Noto Sans Tagalog", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
+
 .webpages {
+    font-family: no;
     background-color: blue;
     border: 2px solid blue;
     width: 30vw;
