@@ -201,6 +201,14 @@ $(".frame-link-5").click(function(){
     });
 });
 
+$("a.zero").click(function(event) {
+    event.preventDefault(); // Prevent the default anchor behavior
+    var target = $(this).attr("href"); // Get the target element's id
+    $('html, body').animate({
+        scrollLeft: $(target).offset().left // Scroll horizontally to the target element
+    }, 1000); // Duration of the scroll animation in milliseconds
+});
+
 });
 
 

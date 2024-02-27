@@ -54,23 +54,7 @@ table {
 
 /* ------------- start of main page css ------------- */
 
-body {
-    font-family: "Noto Sans Tagalog", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-
-.noto-sans tagalog-regular {
-    font-family: "Noto Sans Tagalog", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-
-
-
-
 .webpages {
-    font-family: no;
     background-color: blue;
     border: 2px solid blue;
     width: 30vw;
@@ -209,22 +193,21 @@ u:hover{
 
 .zero{
     font-family: monospace;
-    font-size: 15px;
     text-align: center;
-    color: blue;
-    font-weight: bold;
+    color: white;
     position: absolute;
     top: 85vh;
-    border: 2px solid blue;
-    background-color: white;
+    background-color: blue;
     padding: 5px;
-    z-index: 1000;
+    z-index: 1;
     margin-left: 2em;
     text-decoration: none;
+    border-radius: 10px;
 }
 
 .zero:hover{
-    border-color: red;
+    background-color: red;
+    color: white;
 }
 
 #closeAllButton{
@@ -233,7 +216,7 @@ u:hover{
     color: blue;
     font-weight: bold;
     position: fixed;
-    bottom: 9.5vh;
+    top: 90vh;
     right: 3em;
     border: 2px solid blue;
     background-color: white;
@@ -252,7 +235,7 @@ u:hover{
     color: blue;
     font-weight: bold;
     position: fixed;
-    top: 80vh;
+    top: 84vh;
     right: 3em;
     border: 2px solid blue;
     background-color: white;
