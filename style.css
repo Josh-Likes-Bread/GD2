@@ -80,11 +80,11 @@ h1{
 }
 
 .carBaybayinH1{
-    font-family:  "Noto Sans Tagalog", sans-serif;
+    font-family:  "Noto Sans Tagalog", "sans-serif";
 }
 
 .carKawiH1{
-    font-family: "Noto Sans Kawi", sans-serif;
+    font-family: "Noto Sans Kawi", "sans-serif";
 }
 
 .carHanunooH1{
@@ -92,33 +92,33 @@ h1{
 }
 
 .carTagbanwaH1{
-    font-family: "Noto Sans Tagbanwa, sans-serif";
+    font-family: "Noto Sans Tagbanwa", "sans-serif";
 }
 
 .carBuhidH1{
-    font-family: "Noto Sans Buhid, sans-serif";
+    font-family: "Noto Sans Buhid", "sans-serif";
 }
 
 .carBaybayin{
-    font-family:  "Noto Sans Tagalog", sans-serif;
+    font-family:  "Noto Sans Tagalog", "sans-serif";
     font-weight: bold;
     font-size: 10pt;
 }
 
 .carKawi{
-    font-family: "Noto Sans Kawi", sans-serif;
+    font-family: "Noto Sans Kawi", "sans-serif";
 }
 
 .carHanunoo{
-    font-family: "Noto Sans Hanunoo, sans-serif";
+    font-family: "Noto Sans Hanunoo", "sans-serif";
 }
 
 .carTagbanwa{
-    font-family: "Noto Sans Tagbanwa, sans-serif";
+    font-family: "Noto Sans Tagbanwa", "sans-serif";
 }
 
 .carBuhid{
-    font-family: "Noto Sans Buhid, sans-serif";
+    font-family: "Noto Sans Buhid", "sans-serif";
 }
 
 
