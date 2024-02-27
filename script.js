@@ -10,7 +10,7 @@ $(document).ready(function() {
         iframe = $(this).data("iframe");
 
         // Create iframe element
-        var $iframe = $("<div class='webpages'><button class='closeButton'>&times;</button><h1>Baybayin - ᜊᜌ᜔ᜊᜌᜒᜈ᜔</h1><iframe src='"+ iframe +"' width='100%' height='600px'></iframe></div>");
+        var $iframe = $("<div class='webpages'><button class='closeButton'>&times;</button><h1>Baybayin - <span class='carBaybayinH1'>ᜊᜌ᜔ᜊᜌᜒᜈ᜔</span></h1><iframe src='"+ iframe +"' width='100%' height='600px'></iframe></div>");
 
         // Append iframe to body
         $("body").append($iframe);
@@ -47,7 +47,7 @@ $(document).ready(function() {
         iframe = $(this).data("iframe");
 
         // Create iframe element
-        var $iframe = $("<div class='webpages'><button class='closeButton'>&times;</button><h1>Hanunoo - ᜱᜨᜳᜨᜳᜢ </h1><iframe src='"+ iframe +"' width='100%' height='600px'></iframe></div>");
+        var $iframe = $("<div class='webpages'><button class='closeButton'>&times;</button><h1>Hanunoo - <span class='carHanunooH1'>ᜱᜨᜳᜨᜳᜢ</span></h1><iframe src='"+ iframe +"' width='100%' height='600px'></iframe></div>");
 
         // Append iframe to body
         $("body").append($iframe);
@@ -93,7 +93,7 @@ $(document).ready(function() {
         iframe = $(this).data("iframe");
 
         // Create iframe element
-        var $iframe = $("<div class='webpages'><button class='closeButton'>&times;</button><h1>Buhid - ᝊᝓᝑᝒᝇ </h1><iframe src='"+ iframe +"' width='100%' height='600px'></iframe></div>");
+        var $iframe = $("<div class='webpages'><button class='closeButton'>&times;</button><h1>Buhid - <span class='carBuhidH1'>ᝊᝓᝑᝒᝇ</span></h1><iframe src='"+ iframe +"' width='100%' height='600px'></iframe></div>");
 
         // Append iframe to body
         $("body").append($iframe);
@@ -131,7 +131,7 @@ $(document).ready(function() {
         iframe = $(this).data("iframe");
 
         // Create iframe element
-        var $iframe = $("<div class='webpages'><button class='closeButton'>&times;</button><h1>Tagbanwa - ᝦᝤᝪᝨᝯ </h1><iframe src='"+ iframe +"' width='100%' height='600px'></iframe></div>");
+        var $iframe = $("<div class='webpages'><button class='closeButton'>&times;</button><h1>Tagbanwa - <span class='carTagbanwaH1'>ᝦᝤᝪᝨᝯ</span></h1><iframe src='"+ iframe +"' width='100%' height='600px'></iframe></div>");
 
         // Append iframe to body
         $("body").append($iframe);
@@ -171,7 +171,7 @@ $(".frame-link-5").click(function(){
     iframe = $(this).data("iframe");
 
     // Create iframe element
-    var $iframe = $("<div class='webpages'><button class='closeButton'>&times;</button><h1>Kawi - 𑼄𑼒𑽂𑼰𑼬𑼒𑼮𑼶</h1><iframe src='"+ iframe +"' width='100%' height='600px'></iframe></div>");
+    var $iframe = $("<div class='webpages'><button class='closeButton'>&times;</button><h1>Kawi - <span class='carKawiH1'>𑼄𑼒𑽂𑼰𑼬𑼒𑼮𑼶</span></h1><iframe src='"+ iframe +"' width='100%' height='600px'></iframe></div>");
 
     // Append iframe to body
     $("body").append($iframe);
