@@ -201,6 +201,8 @@ $(".frame-link-5").click(function(){
     });
 });
 
+// animation from Dan
+
 $("a.zero").click(function(event) {
     event.preventDefault(); // Prevent the default anchor behavior
     var target = $(this).attr("href"); // Get the target element's id
