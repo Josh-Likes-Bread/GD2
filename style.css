@@ -89,7 +89,6 @@ h1{
 
 .carHanunooH1{
     font-family: "Noto Sans Hanunoo", sans-serif;
-    color: red;
 }
 
 .carTagbanwaH1{
@@ -103,7 +102,6 @@ h1{
 .carBaybayin{
     font-family:  "Noto Sans Tagalog", sans-serif;
     font-weight: bold;
-    font-size: 10pt;
 }
 
 .carKawi{
@@ -116,7 +114,6 @@ h1{
 
 .carTagbanwa{
     font-family: "Noto Sans Tagbanwa", sans-serif;
-    color: red;
 }
 
 .carBuhid{
@@ -163,6 +160,7 @@ h1{
     z-index: 50;
     opacity: 0;
     background-color: #fff;
+    margin-left: 1rem;
     /* margin-top: 7%; */
     /* transform: translateY(-47%); */
     /* border: black solid 1px; */
@@ -190,6 +188,7 @@ h1{
     font-size: 220px;
     color: blue;
     margin-top: 5%;
+    margin-left: 1rem;
     /* transform: translateY(-30%); */
     z-index: 5;
     /* border: black solid 1px; */
@@ -209,8 +208,9 @@ u:hover{
     font-style: normal; 
     font-size: 220px;
     color: blue;
-    position: relative;
+    /* position: relative; */
     margin-top: 2rem;
+    margin-left: 1rem;
     line-height: 1em;
     font-weight:bolder;
     /* margin-top: 10%; */
@@ -219,7 +219,7 @@ u:hover{
 
 .description{
     /* transform: translateY(-3000%); */
-    margin-left: 2em;
+    margin-left: 1em;
     font-family: monospace;
     line-height: 14pt;
     font-weight: 400;
@@ -230,18 +230,19 @@ u:hover{
     border-radius: 10px;
     border: 2px blue solid;
     padding: 1rem;
-    position: absolute;
-    top: 65vh;
+    /* position: absolute; */
+    /* top: 65vh; */
     /* border: black solid 1px; */
 }
 
 .zero{
     font-family: monospace;
     text-align: center;
-    color: white;
+    font-weight: bold;
+    color: blue;
     position: absolute;
-    top: 85vh;
-    background-color: blue;
+    top: 84vh;
+    border: 2px solid blue;
     padding: 5px;
     z-index: 1;
     margin-left: 2em;
@@ -251,6 +252,7 @@ u:hover{
 
 .zero:hover{
     background-color: red;
+    border: 2px solid red;
     color: white;
 }
 
@@ -273,7 +275,7 @@ u:hover{
     border-color: red;
 }
 
-#extras{
+/* #extras{
     font-family: monospace;
     font-size: 15px;
     color: blue;
@@ -285,12 +287,12 @@ u:hover{
     background-color: white;
     padding: 5px;
     z-index: 1000;
-}
+} */
 
-#extras:hover{
+/* #extras:hover{
     color: red;
     border-color: red;
-}
+} */
 
 .timeline{
     margin-top: 2vh;
@@ -435,10 +437,18 @@ a{
     left: 82vw;
 }
 
-.t1613{
+.t1620{
     font-family: monospace;
     position:absolute;
     top:15vh;
+    color:blue;
+    left: 83vw;
+}
+
+.t1613{
+    font-family: monospace;
+    position:absolute;
+    top:28vh;
     color:blue;
     left: 84.9vw;
 }
@@ -446,7 +456,7 @@ a{
 .t1593{
     font-family: monospace;
     position:absolute;
-    top:30vh;
+    top:36vh;
     color:blue;
     left: 87.8vw;
 }
