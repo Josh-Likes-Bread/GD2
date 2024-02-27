@@ -240,12 +240,13 @@ u:hover{
     text-align: center;
     font-weight: bold;
     color: blue;
-    position: absolute;
     top: 84vh;
     border: 2px solid blue;
+    margin-top: 2vh;
+    margin-left: 1vw;
     padding: 5px;
     z-index: 1;
-    margin-left: 2em;
+    width: max-content;
     text-decoration: none;
     border-radius: 10px;
 }
