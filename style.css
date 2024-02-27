@@ -175,19 +175,40 @@ u:hover{
 
 .description{
     /* transform: translateY(-3000%); */
-    margin-left: 1em;
+    margin-left: 2em;
     font-family: monospace;
     line-height: 14pt;
     font-weight: 400;
     font-style: normal;
-    color: blue;
+    color: rgb(255, 255, 255);
+    background-color: blue;
     width: 35%;
     border-radius: 10px;
     border: 2px blue solid;
     padding: 1rem;
     position: absolute;
-    top: 37vw;
+    top: 38vw;
     /* border: black solid 1px; */
+}
+
+.zero{
+    font-family: monospace;
+    font-size: 15px;
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+    position: absolute;
+    bottom: 9.5vh;
+    border: 2px solid blue;
+    background-color: white;
+    padding: 5px;
+    z-index: 1000;
+    margin-left: 2em;
+    text-decoration: none;
+}
+
+.zero:hover{
+    border-color: red;
 }
 
 #closeAllButton{
@@ -197,7 +218,7 @@ u:hover{
     font-weight: bold;
     position: fixed;
     bottom: 9.5vh;
-    right: 5%;
+    right: 3em;
     border: 2px solid blue;
     background-color: white;
     padding: 5px;
@@ -216,7 +237,7 @@ u:hover{
     font-weight: bold;
     position: fixed;
     bottom: 15vh;
-    right: 5%;
+    right: 3em;
     border: 2px solid blue;
     background-color: white;
     padding: 5px;
@@ -444,6 +465,23 @@ a{
 
 .t700:hover{
     box-shadow: 2px 2px 5px black;
+}
+
+#lol{
+    font-family: monospace;
+    position:absolute;
+    top:40vh;
+    color:blue;
+    left: 420vw;
+}
+
+#lol2{
+    font-family: monospace;
+    position:absolute;
+    top:40vh;
+    color:blue;
+    left: 445vw;
+    opacity: 0;
 }
 
 
