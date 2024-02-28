@@ -57,7 +57,7 @@ table {
 .webpages {
     background-color: blue;
     border: 2px solid blue;
-    width: 30vw;
+    width: 470px;
     height: 600px;
     z-index: 999;
     /* display: none; */
@@ -139,11 +139,15 @@ h1{
 
 
 .mainTitle{
+    /* margin-top: 1vh; */
     z-index: 0;
     /* border: black 1px solid; */
+    width: 130vw;
     padding-left: 1vw;
+    top: 35vh;
     display: grid;
     position: absolute;
+
     /* line-height: 15em; */
 }
 
@@ -153,13 +157,14 @@ h1{
     font-family: monospace;
     font-weight: 400;
     font-style: normal; 
-    font-size: 240px;
+    width: 65%;
     color: blue;
     position: absolute ;
-    top: 7%;
+
     z-index: 50;
     opacity: 0;
     background-color: #fff;
+    /* border-top: rgb(255, 255, 255) 40px solid; */
     margin-left: 1rem;
     /* margin-top: 7%; */
     /* transform: translateY(-47%); */
@@ -171,7 +176,6 @@ h1{
     font-weight: 400;
     font-style: normal; 
     font-size: 240px;
-    color: blue;
     position: absolute ;
     z-index: 50;
     /* margin-top: 7%; */
@@ -185,7 +189,7 @@ h1{
     font-family: monospace;
     font-weight: bolder;
     font-style: normal; 
-    font-size: 220px;
+    font-size: 14vw;
     color: blue;
     margin-top: 5%;
     margin-left: 1rem;
@@ -206,9 +210,8 @@ u:hover{
     font-family: monospace;
     font-weight: 400;
     font-style: normal; 
-    font-size: 220px;
+    font-size: 14vw;
     color: blue;
-    /* position: relative; */
     margin-top: 2rem;
     margin-left: 1rem;
     line-height: 1em;
@@ -219,15 +222,15 @@ u:hover{
 
 .description{
     /* transform: translateY(-3000%); */
-    margin-left: 1em;
+    margin-left: 1vw;
     margin-top: 1vh ;
     font-family: monospace;
     line-height: 14pt;
     font-weight: 400;
     font-style: normal;
-    color: rgb(255, 255, 255);
-    background-color: blue;
-    width: 35%;
+    color: blue;
+    /* background-color: blue; */
+    width: 30vw;
     border-radius: 10px;
     border: 2px blue solid;
     padding: 1rem;
@@ -263,8 +266,8 @@ u:hover{
     color: blue;
     font-weight: bold;
     position: fixed;
-    top: 90vh;
-    right: 3em;
+    bottom: 5vh;
+    right: 2vw;
     border: 2px solid blue;
     border-radius: 10px;
     background-color: white;
@@ -329,6 +332,10 @@ u:hover{
     position: absolute;
     bottom: 30px;
 }
+
+/* .links{
+    border:1px solid black;
+} */
 
 a{
     line-height: 20pt;
@@ -410,7 +417,7 @@ a{
 .t1989{
     font-family: monospace;
     position:absolute;
-    top:56vh;
+    top:57vh;
     color:blue;
     left: 9vw;
 }
@@ -418,7 +425,7 @@ a{
 .t1950{
     font-family: monospace;
     position:absolute;
-    top:62vh;
+    top:65vh;
     color:blue;
     left: 16vw;
 }
@@ -426,7 +433,7 @@ a{
 .t1900{
     font-family: monospace;
     position:absolute;
-    top:67vh;
+    top:68vh;
     color:blue;
     left: 26vw;
 }
@@ -488,7 +495,7 @@ a{
     position: absolute;
     left: 146.5vw;
     top: 18vh;
-    width: 3vw;
+    width: 45px;
     height: 16vh;
     border-radius: 10px;
 }
@@ -522,7 +529,7 @@ a{
     left: 268.5vw;
     border: solid 3px blue;
     border-radius: 10px;
-    width: 2vw;
+    width: 30px;
     height: 3.5vh;
 }
 
@@ -581,4 +588,3 @@ a{
   a.tooltip:hover::after {
     visibility: visible;
   }
-
